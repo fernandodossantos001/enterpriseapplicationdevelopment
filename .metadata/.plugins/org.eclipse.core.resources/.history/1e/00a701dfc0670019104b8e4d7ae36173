@@ -1,0 +1,16 @@
+package br.com.fiap.test;
+
+import static org.junit.jupiter.api.Assertions.fail;
+
+import br.com.fiap.dao.LocacaoDAO;
+
+class Test {
+	
+	private LocacaoDAO dao ;
+
+	@org.junit.jupiter.api.Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,9 @@
+package br.com.fiap.entity;
+
+import javax.persistence.Table;
+
+@Entity
+@Table(name="T_Locacao")
+public class Locacao {
+
+}

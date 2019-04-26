@@ -1,0 +1,12 @@
+package br.com.fiap.entity;
+
+import java.io.Serializable;
+
+public class LocacaoPK implements Serializable{
+	
+	private int codigo;
+	
+	private int carro;
+	
+	private int cliente;
+}

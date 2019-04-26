@@ -1,0 +1,26 @@
+package br.com.fiap.test;
+
+import static org.junit.jupiter.api.Assertions.fail;
+
+import org.junit.jupiter.api.BeforeAll;
+
+import br.com.fiap.dao.LocacaoDAO;
+import br.com.fiap.dao.impl.LocacaoDAOImpl;
+import br.com.fiap.singleton.EntityManagerFactorySingleton;
+
+class Test {
+	
+	private static LocacaoDAO dao ;
+	
+	@BeforeAll
+	public static void init() {
+		dao = new LocacaoDAOImpl(EntityManagerFactorySingleton.getInstance().createEntityManager());
+		
+	}
+	
+	@org.junit.jupiter.api.Test]
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

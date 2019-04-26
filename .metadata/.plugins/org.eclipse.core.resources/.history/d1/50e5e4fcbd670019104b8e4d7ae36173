@@ -1,0 +1,9 @@
+package br.com.fiap.entity;
+
+public class LocacaoPK {
+	private int codigo;
+	
+	private int carro;
+	
+	private int cliente;
+}
